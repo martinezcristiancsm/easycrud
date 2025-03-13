@@ -10,9 +10,9 @@
 1. Clona el repositorio:
 
    ```bash
-   git clone easycrud
+   git clone https://github.com/martinezcristiancsm/easycrud
 
-    Navega al directorio del proyecto:
+Navega al directorio del proyecto:
 
     cd easycrud
 
