@@ -20,15 +20,13 @@ Configuración del Puerto, username y pw de la db
 
 El puerto de la aplicación está configurado en src/main/resources/application.properties. Cambia los siguientes valores por tus valores de preferencia:
 
-spring.datasource.url=jdbc:mysql://localhost:{puerto a usar}/easycrud
-spring.datasource.username={nombre de usuario}
-spring.datasource.password={password}
+   spring.datasource.url=jdbc:mysql://localhost:{puerto a usar}/easycrud
+   spring.datasource.username={nombre de usuario}
+   spring.datasource.password={password}
 
 Construir y Correr la Aplicación
-
-    Construye la aplicación:
     
-mvn clean install
+    mvn clean install
 
 Córrela:
 
