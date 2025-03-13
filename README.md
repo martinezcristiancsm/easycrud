@@ -64,5 +64,5 @@ Access the application at http://localhost:8080 (or the port you configured).
 
 Postman Endpoints Testing:
 
-https://www.postman.com/crimson-flare-95642/my-workspace/collection/mu96hij/easycrud?action=share&creator=43023897
+    https://www.postman.com/crimson-flare-95642/my-workspace/collection/mu96hij/easycrud?action=share&creator=43023897
 
