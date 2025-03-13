@@ -29,8 +29,13 @@ Clone the Repository:
 
     git clone https://github.com/martinezcristiancsm/easycrud
 
-If you already have the repository cloned then:
 Navigate to the project directory:
+
+    cd path/to/easycrud
+
+OR
+
+If you already have the repository cloned then navigate to the project directory:
 
     cd path/to/easycrud
 
