@@ -1,35 +1,58 @@
-# Guía para Correr la Aplicación Java Spring Boot
+# Guide to Run the Java Spring Boot Application
 
-## Requisitos
+OPTION 1:
+The project includes an installation script that automates the setup.
+Option 1: Run the script automatically
 
-- **Java 17 o superior**: Verifica con `java -version`.
-- **Maven**: Verifica con `mvn -v`.
+Open a terminal (Git Bash on Windows, Terminal on macOS/Linux).
+Run the following command to download and execute the script:
 
-## Clonar el Repositorio
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/martinezcristiancsm/easycrud
-
-Navega al directorio del proyecto:
-
-    cd easycrud
-
-Configuración del Puerto, username y pw de la db
-
-El puerto de la aplicación está configurado en src/main/resources/application.properties. Cambia los siguientes valores por tus valores de preferencia:
-
-   spring.datasource.url=jdbc:mysql://localhost:{puerto a usar}/easycrud
-   spring.datasource.username={nombre de usuario}
-   spring.datasource.password={password}
-
-Construir y Correr la Aplicación
+    curl -sSL https://raw.githubusercontent.com/martinezcristiancsm/easycrud/main/install.sh | bash
     
+Check the application's port, username and password configured in src/main/resources/application.properties
+
+    spring.datasource.url=jdbc:mysql://localhost:{port_to_use}/easycrud
+    spring.datasource.username={username}
+    spring.datasource.password={password}
+    
+This command downloads and runs the script in one step.
+
+If you prefer to download it first and execute it manually, follow 
+OPTION2:
+
+## Requirements
+
+- **Java 17 or higher**: Verify with `java -version`.
+- **Maven**: Verify with `mvn -v`.
+
+Clone the Repository:
+
+    git clone https://github.com/martinezcristiancsm/easycrud
+
+If you already have the repository cloned then:
+Navigate to the project directory:
+
+    cd path/to/easycrud
+
+Pull the ultimate changes:
+
+    git pull
+
+Configure the Port, Username, and DB Password
+
+The application's port, username and password is configured in src/main/resources/application.properties. Change the following values to your preferred settings:
+
+    spring.datasource.url=jdbc:mysql://localhost:{port_to_use}/easycrud
+    spring.datasource.username={username}
+    spring.datasource.password={password}
+
+Build and Run the Application
+Build the application:
+
     mvn clean install
 
-Córrela:
+Run the application:
 
     mvn spring-boot:run
 
-Accede a la aplicación en http://localhost:8080 (o el puerto que hayas configurado).
+Access the application at http://localhost:8080 (or the port you configured).
