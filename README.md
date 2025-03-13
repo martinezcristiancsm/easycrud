@@ -2,8 +2,6 @@
 
 OPTION 1:
 The project includes an installation script that automates the setup.
-Option 1: Run the script automatically
-
 Open a terminal (Git Bash on Windows, Terminal on macOS/Linux).
 Run the following command to download and execute the script:
 
